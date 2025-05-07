@@ -6,7 +6,7 @@ count = localStorage.getItem("count");
 distanceText.textContent = "Distance: " + localStorage.getItem("count");
 function fly() {
 
-  count += 1;
+  count++;
   
   localStorage.setItem("count", count);
 
