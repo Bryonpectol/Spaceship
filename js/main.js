@@ -8,7 +8,11 @@ count = localStorage.getItem("count");
 distanceText.textContent = "Distance: " + localStorage.getItem("count");
 function fly() {
 
-  mainImg.setAttribute("src", "/images/rocket1.png");
+  
+
+  for (let i = 1; i <= 10; i++) {
+      mainImg.setAttribute("src", "/images/rocket1.png");
+     }
 
   count++;
   
