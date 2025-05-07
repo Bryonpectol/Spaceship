@@ -11,7 +11,9 @@ distanceText.textContent = "Distance: " + localStorage.getItem("count");
 
 function fly() {
 
-  setInterval(isflying, 6000);
+  mainImg.setAttribute("src", "/images/rocket1.png");
+  
+  setInterval(isflying, 1000);
 
   count++;
   
@@ -25,6 +27,6 @@ function fly() {
 
 function isflying() {
 
-  mainImg.setAttribute("src", "/images/rocket1.png");
+  mainImg.setAttribute("src", "/images/rocket1_off.png");
   
 }
