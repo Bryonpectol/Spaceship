@@ -8,6 +8,6 @@ function fly() {
   
   localStorage.setItem("count", count);
 
-  distanceText.text = "Distance: " + localStorage.getItem("count");
+  distanceText.textContent = "Distance: " + localStorage.getItem("count");
   
 }
