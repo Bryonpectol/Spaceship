@@ -24,6 +24,8 @@ if(isflying == false) {
   mainImg.setAttribute("src", "/images/rocket1_off.png");
 }
 
+console.log(isflying + " " + flycount);
+
 function fly() {
   isflying = true;
 
