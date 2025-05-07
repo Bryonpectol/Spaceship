@@ -13,7 +13,7 @@ function fly() {
 
   mainImg.setAttribute("src", "/images/rocket1.png");
   
-  setInterval(isflying, 1000);
+  setInterval(isflying, 2000);
 
   count++;
   
