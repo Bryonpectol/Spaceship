@@ -21,6 +21,7 @@
 #mainimg {
   text-align: center;
   align-item: center;
-  width: 100px;
+  width: 180px;
+  height: 133px
   z-index: 1;
 }
