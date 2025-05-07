@@ -16,3 +16,12 @@
   border: none;
   opacity: 0;
 }
+
+#mainimg {
+  position: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  width: 200px;
+}
