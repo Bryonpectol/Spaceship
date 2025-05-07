@@ -15,6 +15,7 @@
   color: none;
   border: none;
   opacity: 0;
+  z-index: 1;
 }
 
 #mainimg {
@@ -24,4 +25,5 @@
   justify-content: center;
   align-item: center;
   width: 200px;
+  z-index: -1;
 }
