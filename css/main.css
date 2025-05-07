@@ -3,6 +3,10 @@
   height: 0px;
 }
 
+body {
+  background: url("/images/bgs/bg.png");
+}
+
 #mainbtn {
   position: fixed;
   text-align: center;
