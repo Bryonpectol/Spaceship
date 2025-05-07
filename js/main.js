@@ -14,7 +14,7 @@ function fly() {
   body.style.background = 'url("/images/bgs/bg.gif")';
   mainImg.setAttribute("src", "/images/rocket1.png");
   
-  setInterval(isflying, 2000);
+  setInterval(isflying, 6000);
 
   count++;
   
