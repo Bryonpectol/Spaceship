@@ -20,7 +20,7 @@ function fly() {
   
   localStorage.setItem("count", count);
 
-  distanceText.textContent = "Distance: " + localStorage.getItem("count");
+  distanceText.textContent = "Distance: " + localStorage.getItem("count").toLocaleString();
 
   
   
