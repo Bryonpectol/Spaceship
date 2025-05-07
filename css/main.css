@@ -20,8 +20,7 @@
 
 #mainimg {
   text-align: center;
-  align-item: center;
   width: 180px;
-  height: 133px
+  height: 133px;
   z-index: 1;
 }
