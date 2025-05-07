@@ -19,7 +19,7 @@
 }
 
 #mainimg {
-  position: fixed;
+  position: absolute;
   text-align: center;
   display: flex;
   justify-content: center;
